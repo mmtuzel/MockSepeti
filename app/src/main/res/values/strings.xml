@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mock Sepeti</string>
+
+    <!-- Strings related LoginActivity -->
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="text_login_button">LOGIN</string>
+</resources>
