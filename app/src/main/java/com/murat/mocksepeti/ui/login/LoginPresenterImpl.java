@@ -33,7 +33,6 @@ public class LoginPresenterImpl implements LoginPresenter {
             call.enqueue(new Callback<Credential>() {
                 @Override
                 public void onResponse(Call<Credential> call, Response<Credential> response) {
-                    //Toast.makeText(LoginActivity.this, String.valueOf(response.code()), Toast.LENGTH_SHORT).show();
                     if ((response.code() == 200)) {
                         view.closeProgressDialog();
                         view.startUserListActivity();

@@ -1,11 +1,8 @@
 package com.murat.mocksepeti.ui.userdetail;
 
-import android.util.Log;
-
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.murat.mocksepeti.model.UserDetail;
 
@@ -28,7 +25,6 @@ public class UserDetailPresenterImpl implements UserDetailPresenter {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                //Log.d("BBB", databaseError.getMessage());
             }
         });
     }

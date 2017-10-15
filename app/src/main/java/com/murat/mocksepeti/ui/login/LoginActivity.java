@@ -46,14 +46,6 @@ public class LoginActivity extends AppCompatActivity
         loginPresenter.setView(this);
     }
 
-    /*private void validateButton(EditText etUsername, EditText etPassword, Button button) {
-        if (!etUsername.getText().toString().isEmpty() && !etPassword.getText().toString().isEmpty())
-            button.setEnabled(true);
-        else
-            button.setEnabled(false);
-
-    }*/
-
     @Override
     public void showToast() {
         Toast.makeText(this, "Username or password is incorrect ", Toast.LENGTH_SHORT).show();

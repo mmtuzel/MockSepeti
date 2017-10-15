@@ -8,6 +8,4 @@ public interface UserDetailView {
     void setIvUserPicture(int index);
 
     void createUpdateDialog(final String type, String title);
-
-    //void editInfo(String field, String value);
 }
